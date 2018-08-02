@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration project</title>
+</head>
+<body>
+
+	<h1>Registration</h1>
+
+	<form>
+		<div>
+			<label for="fname">First Name: </label>
+			<input type="text" name="fname" id="fname" placeholder="John" required>
+			<label for="lname">Last Name: </label>
+			<input type="text" name="lname" id="lname" placeholder="Doe" required>
+		</div>
+
+		<div>
+			<label for="male">Male </label>
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="female">Female </label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="other">Other </label>
+			<input type="radio" name="gender" id="other" value="other">
+		</div>
+
+		<div>
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email" placeholder="johndoe@example.com" required>
+			<label for="password">Password: </label>
+			<input type="password" name="password" id="password" placeholder="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters.">
+		</div>
+
+		<div>
+			<label for="bday">Birthday: </label>
+			<input type="date" name="bday" id="bday">
+		</div>
+
+		<div>
+			<label for="tandc">I agree to the terms and conditions</label>
+			<input type="checkbox" name="tandc" id="tandc" required>
+		</div>
+
+		<div>
+			<label for="satisfied">Are you satisfied with this site?</label>
+			<select name="satsfied" id="satisfied">
+				<option value="1">Yes!</option>
+				<option value="0">Meh.</option>
+				<option value="-1">No!</option>
+			</select>
+		</div>
+
+		<input type="submit">
+	</form>
+
+</body>
+</html>

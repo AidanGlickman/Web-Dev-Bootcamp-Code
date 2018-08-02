@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RGB Guessing Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>The Great
+		<br>
+		<span id="picked">RGB</span>
+		<br>
+		Color Game</h1>
+
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected" id="hard">Hard</button>
+	</div>
+
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="colorgame.js"></script>
+</body>
+</html>

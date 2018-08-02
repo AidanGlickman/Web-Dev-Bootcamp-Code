@@ -1,0 +1,81 @@
+body{
+	background-color: #F0F0F0;
+	font-family: "Source Sans Pro", sans-serif;
+	width: 60%;
+	border: 1em solid #B4BBC0;
+	margin: auto;
+}
+
+#posts{
+	background-color: #FAFAFA;
+	width: 80%;
+	margin: 2.5% auto;
+}
+
+/*#posts > *{
+	margin: auto auto auto 2.5%;
+	padding-top: 2.5%;
+}*/
+
+#header{
+	background-color: #FAFAFA;
+	width: 90%;
+	margin: 2.5% auto;
+	display: flex;
+}
+
+#logo{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: auto auto auto 2%;
+	color: #303B4D;
+}
+
+#welcome{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: auto 2% auto auto;
+	text-align: right;
+}
+
+.date{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #69b9d5;
+	text-transform: uppercase;
+	margin: auto auto auto 2.5%;
+	padding-top: 2.5%;
+}
+
+.title{
+	color: #303B4D;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2em;
+	text-transform: capitalize;
+	margin: auto auto auto 2.5%;
+	padding-top: 2.5%;
+}
+
+.quote{
+	padding: 2.5%;
+	border-left: 0.5em solid #B4BBC0;
+	margin: auto auto auto 2.5%;
+	padding-top: 2.5%;
+}
+
+.postbody{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #101010;
+	margin: auto auto auto 2.5%;
+	padding-top: 2.5%;
+}
+
+hr{
+  	color: grey;
+  	overflow: visible;
+  	text-align: center;
+  	width: 90%;
+}

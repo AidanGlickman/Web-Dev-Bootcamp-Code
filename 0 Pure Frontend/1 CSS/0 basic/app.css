@@ -1,0 +1,31 @@
+body{
+	background: #FFDDDD;
+	/*
+	background: url(https://image.freepik.com/free-vector/japanese-seamless-pattern-cut-out-from-paper_1110-1081.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+}
+
+#aboutme1{
+	/*
+	border-color: #FF00FF;
+	border-width: 5px;
+	border-style: solid;
+	*/
+
+	border: 5px, solid, #FF00FF;
+	color: #FF0000;
+}
+
+#aboutme2{
+	color: rgb(128, 0, 0);
+}
+
+#aboutme3{
+	color: rgba(255, 0, 0, .5);
+}
+
+ul{
+	background: #FF0000;
+}

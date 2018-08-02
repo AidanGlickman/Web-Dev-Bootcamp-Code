@@ -1,0 +1,18 @@
+/*also applies to anything in ul due to inheritence*/
+/*whatever is more specific applies*/
+
+body{
+	text-decoration: underline;
+	color: red;
+}
+
+ul{
+	color:purple;
+}
+
+.highlight{
+	color: blue;
+}
+#special{
+	color: pink;
+}

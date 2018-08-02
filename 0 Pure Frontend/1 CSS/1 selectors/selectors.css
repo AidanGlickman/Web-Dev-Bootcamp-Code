@@ -1,0 +1,24 @@
+/*all elements*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant. every a inside an li*/
+li a{
+	color: red;
+}
+
+/*Andjacency. every ul that comes after an h4*/
+h4 + ul{
+	border: 4px solid blue;
+}
+
+/* Attributes. Select all a tags with the attribute href="http://www.google.com"*/
+a[href="http://www.google.com"]{
+	background: green;
+}
+
+/*nth of type. Selects the third li in each group.*/
+li:nth-of-type(3){
+	background: purple
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Grid Excercise</title>
+	<script type="text/javascript" src="assets/JS/paper-full.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/CSS/styles.css">
+	<script type="text/paperscript" canvas="myCanvas">
+		for(var i = 0; i < 1000; i += 100){
+			for(var j = 0; j < 1000; j += 100){
+				new Path.Circle(new Point(i, j), 5).fillColor = 'purple';
+			}
+		}
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>

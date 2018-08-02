@@ -1,0 +1,9 @@
+.onhover{
+	color: green;
+	font-weight: 700;
+}
+
+.done{
+	text-decoration: line-through dotted;
+	opacity: 0.5;
+}
